@@ -75,7 +75,7 @@ $ npm start
 ```
 
 
-Made by :squid: <a href="https://github.com/MePriyanshuHoo" target="_blank">{{YOUR_NAME}}</a>
+Made by :squid: <a href="https://github.com/MePriyanshuHoo" target="_blank">Priyanshu Vishwakarma</a>
 
 &#xa0;
 
