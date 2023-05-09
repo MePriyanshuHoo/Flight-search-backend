@@ -9,6 +9,8 @@ if(process.env.NODE_ENV !== "production"){
 }
 
 // intializing amadeus API
+console.log(process.env.API_KEY);
+console.log(process.env.API_SECRET);
 const amadeus = new Amadeus({
     clientId: process.env.API_KEY,
     clientSecret: process.env.API_SECRET,
