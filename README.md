@@ -9,13 +9,11 @@
 <h1 align="center">Backend</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{MePriyanshuHoo}}/Flight-search-backend?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/MePriyanshuHoo/Flight-search-backend?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{MePriyanshuHoo}}/Flight-search-backend?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/MePriyanshuHoo/Flight-search-backend?color=56BEB8">
 
   <img alt="Repository size" src="https://img.shields.io/github/languages/top/MePriyanshuHoo/Flight-search-backend?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/MePriyanshuHoo/Flight-search-backend?color=56BEB8">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/MePriyanshuHoo/Flight-search-backend?color=56BEB8" /> -->
 
@@ -50,8 +48,8 @@ This is a backend for flight search app. It is made using Node.js and Express.js
 
 The following tools were used in this project:
 
-- [Node.js](https://nodejs.org/en/)/
-- [Express.js](https://expressjs.com/)/
+- [Node.js](https://nodejs.org/en/)
+- [Express.js](https://expressjs.com/)
 - [Amadeus](https://developers.amadeus.com/)
 
 ## :white_check_mark: Requirements ##
