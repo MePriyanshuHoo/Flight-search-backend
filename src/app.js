@@ -18,7 +18,7 @@ const amadeus = new Amadeus({
 
 // using middlewares 
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "*",
 }));
 app.use(express.json());
 app.use(bodyParser.json());
