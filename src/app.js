@@ -34,3 +34,4 @@ app.use("/api/", detailsRoutes);
 
 
 module.exports = app;
+return 0;
