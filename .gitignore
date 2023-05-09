@@ -2,6 +2,7 @@
 /build
 
 # Local development env files
+.env
 .vscode
 src\config\config.env
 # Local Netlify folder
