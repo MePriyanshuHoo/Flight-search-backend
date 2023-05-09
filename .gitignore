@@ -5,5 +5,3 @@
 .env
 .vscode
 src\config\config.env
-# Local Netlify folder
-.netlify
