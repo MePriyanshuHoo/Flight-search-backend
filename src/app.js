@@ -5,7 +5,7 @@ const app = express();
 const cors = require("cors");
 
 if(process.env.NODE_ENV !== "production"){
-    require("dotenv").config({path: "src/config/config.env"});
+    require("dotenv").config();
 }
 
 // intializing amadeus API
