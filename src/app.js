@@ -9,23 +9,26 @@ if(process.env.NODE_ENV !== "production"){
 }
 
 // intializing amadeus API
-const amadeus = new Amadeus({ 
+const amadeus = new Amadeus({
     clientId: process.env.API_KEY,
     clientSecret: process.env.API_SECRET,
 });
- 
-// using middlewares
+
+// using middlewares 
 app.use(cors({
     origin: "http://localhost:3000",
 }));
 app.use(express.json());
 app.use(bodyParser.json());
 
-//imporing routes
-const searchRoutes = require("./routes/Search");
+//imporing routesv
+const detailsRoutes = require("./routes/Search");
 
+app.get("/", (req, res) => {
+    res.send('<h1>Hello World</h1>');
+});
 //using routes
-app.use("/api/", searchRoutes);
+app.use("/api/", detailsRoutes);
 
-module.exports = amadeus;
+
 module.exports = app;
